@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
@@ -104,12 +105,15 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box:hover{
+    background:black;
 }
 
 .bottom-content {
@@ -143,4 +147,133 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* BANNER IMAGE STYLE */
+.banner div{
+    /* border: 1px solid red; */
+    min-height: 150px;
+    width:100%;
+    margin:3% 0 3%;
+    background-image:url("/img/jumbo.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+/* TOP MATTER STYLE  */
+.toppest{
+    display:flex;
+    justify-content: space-between;
+    align-items:baseline;
+}
+.toppest a{
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+    border-radius: 7px;
+}
+.toppest a:hover{
+    background: black;
+    color:white;
+}
+.toppest nav{
+    display: flex;
+    width: 70%;
+    /* border: 1px solid grey; */
+    justify-content: space-around;
+}
+
+/* FIX BOX COLORS  */
+.teal{
+    background:teal;
+}
+.gold{
+    background: gold;
+}
+.cadetblue{
+    background: cadetblue;
+}
+.coral{
+    background: coral;
+}
+.crimson{
+    background: crimson;
+}
+.forestgreen{
+    background:forestgreen;
+}
+.darkorchid{
+    background:darkorchid;
+}
+.hotpink{
+    background:hotpink;
+}
+.indigo{
+    background: indigo;
+}
+.dodgerblue{
+    background: dodgerblue;
+}
+
+/* ABOUT PAGE STYLING */
+
+.banner.about-banner div{
+    background-image:url("/img/jumbo-about.png");
+}
+.about-top{
+    border-bottom: 1px dashed black;
+}
+.about-top div{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+
+.about-gallery{
+    width:90%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-gallery div{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 45%;
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+}
+.about-gallery a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 7px;
+    border: 1px solid black;
+    margin-bottom: 5%;
+    width:fit-content
+}
+.about-gallery a:hover{
+    color:white;
+    background:black;
+    border:1px solid orangered;
+}
+.about-gallery img{
+    margin-bottom: 5%;
+}
+
+.about-gallery p{
+    margin-bottom: 5%;
+}
+
+.about-bottom{
+    width:90%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:3%;
 }
