@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
@@ -143,4 +144,31 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.banner div{
+    /* border: 1px solid red; */
+    min-height: 200px;
+    width:100%;
+    margin:3% 0 3%;
+    background-image:url("/img/amish.jpeg");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.toppest{
+    display:flex;
+    justify-content: space-between;
+    align-items:baseline;
+}
+.toppest a{
+    text-decoration: none;
+    color: black;
+}
+.toppest nav{
+    display: flex;
+    width: 70%;
+    /* border: 1px solid grey; */
+    justify-content: space-around;
 }
