@@ -34,23 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-HTML builds the structure of websites. "Semantic" HTML is HTML that is extremely easy for humans to read because its purpose and role in the structure of the site is apparent without having to investigate the deeper structure of an HTML page.
+**HTML builds the structure of websites. "Semantic" HTML is HTML that is extremely easy for humans to read because its purpose and role in the structure of the site is apparent without having to investigate the deeper structure of an HTML page. Using semantic html when possible is a best-practice that makes for easier maintenance and debugging of other developers' work.**
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-Block elements start new lines and take the full available width, whereas inline elements live happily on the same line as other elements and only take the width they need.
+**Block elements start new lines and take the full available width, whereas inline elements live happily on the same line as other elements and only take the width they need.**
 
 3. What are the 4 areas of the box model?
 
-content, border, padding, margin
+**content, border, padding, margin**
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-align-items works on the cross axis. If you want the main axis of the flex element, you use justify-content instead.
+**align-items works on the cross axis. If you want the main axis of the flex element, you use justify-content instead.**
 
 5. Explain why git is valuable to a team of developers.
 
-It enables careful version control and is good for managing large codebases with many developers putting code in at the same time.
+**It enables careful version control and is good for managing large codebases with many developers putting code in at the same time.**
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -96,10 +96,10 @@ You will also notice there are 10 boxes on the home page that need background co
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [X] Copy and paste your home page navigation and header into the about page
+* [X] Update the header image with the about page image
+* [X] Link the `Home` navigation item back to the `index.html` page.
+* [X] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
